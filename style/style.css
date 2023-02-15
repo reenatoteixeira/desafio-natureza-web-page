@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #303030;
+}
+
+.section-picture {
+    background-image: url('../images/banners/biker-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.section-menu {
+    padding: 35px;
+    text-align: center;
+}
+
+.section-menu li {
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+.section-menu a {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E32925;
+    padding: 30px;
+    border: 5px double;
+    background: white;
+    transition: background-color 0.5s;
+}
+
+.section-menu a:hover {
+    background-color: #E32925;
+    color: white;
+}
+
+.section-banner {
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.banner {
+    background: url('../images/banners/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 150px;
+    max-width: 1500px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.section-container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-subscribe {
+    margin-bottom: 15px;
+}
+
+.subscribe-box {
+    display: inline-block;
+    width: 40%;
+    margin: 15px;
+    padding: 10px;
+    border: 5px #E32925 double;
+}
+
+.kit-picture {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.sub-description {
+    text-align: left;
+    height: 150px;
+}
+
+.sub-description h2 {
+    margin-bottom: 5px;
+}
+
+.sub-description ul {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 26px;
+    list-style: square;
+    margin-left: 25px;
+}
+
+.price {
+    text-align: left;
+}
+
+.price h2, .price h3 {
+    color: #E32925;
+}
+
+.price h2 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.price h3 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.subscribe-button {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background: #E32925;
+    transition: background-color 0.3s;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.subscribe-button:hover {
+    background: #e97573;
+}
+
+.section-info {
+    margin: 90px 0px;
+    text-align: left;
+}
+
+.info-box {
+    overflow: hidden;
+    margin: 15px 0px;
+}
+
+.info-video, .info-text {
+    display: inline-block;
+    height: 100%;
+}
+
+.info-video {
+    height: 450px;
+    width: 800px;
+    float: left;
+    border: 5px double #E32925;
+}
+
+.info-text {
+    width: 390px;
+    padding: 10px 0px 0px 40px;
+    box-sizing: border-box;
+}
+
+.info-text p {
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+.info-text a {
+    color: #E32925;
+    text-decoration: none;
+}
+
+.info-text a:hover {
+    text-decoration: underline;
+}
+
+.section-sponsors {
+    text-align: left;
+    height: 180px;
+}
+
+.sp-logos {
+    height: 150px;
+    overflow: hidden;
+}
+
+.logo1 {
+    background: url('../images/logos/logo-sponsor1.png');
+}
+
+.logo2 {
+    background: url('../images/logos/logo-sponsor2.jpg');
+}
+
+.logo3 {
+    background: url('../images/logos/logo-sponsor3.jpeg');
+}
+
+.logo4 {
+    background: url('../images/logos/logo-sponsor4.jpg');
+}
+
+.logo5 {
+    background: url('../images/logos/logo-sponsor5.png');
+}
+
+.logo6 {
+    background: url('../images/logos/logo-sponsor6.png');
+}
+
+.logo1, .logo2, .logo3, .logo4, .logo5, .logo6 {
+    height: 150px;
+    width: 196px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

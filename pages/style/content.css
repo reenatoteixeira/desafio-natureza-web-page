@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #303030;
+}
+
+.section-picture {
+    background-image: url('../../images/banners/biker-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.section-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-bar {
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #30303030;
+}
+
+.nav-bar a {
+    color: #E3292599;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #E32925;
+}
+
+.section-content {
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.section-content h1,
+.section-content h2 {
+    color: #E32925;
+}
+
+.section-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-content h2 {
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.section-content p {
+    margin-bottom: 10px;
+}
+
+.section-content a {
+    color: #E32925;
+}
+
+.section-content a:hover {
+    text-decoration: underline;
+}

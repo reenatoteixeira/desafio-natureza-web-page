@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #303030;
+}
+
+header {
+    background: #303030;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    height: 80px;
+}
+
+.nav-menu {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    transition: color 0.5s;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+    color: #E32925;
+}
+
+footer {
+    background: #303030;
+    padding: 20px 200px;
+    position: relative;
+    bottom: -100px;
+}
+
+.footer-container {
+    height: 200px;
+    padding: 10px;
+}
+
+.contact-img {
+    width: 80%;
+    padding: 0px 10px;
+    margin: auto;
+    position: relative;
+}
+
+.footer-logo {
+    height: 150px;
+}
+
+.social-icons {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+}
+
+.social-icons img {
+    height: 30px;
+    margin: 15px;
+}
+
+.contact-text {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(-20%, -50%);
+    color: rgb(230, 230, 230);
+    line-height: 30px;
+}
+
+.contact-text h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-text li {
+    font-size: 18px;
+}
